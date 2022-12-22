@@ -1,5 +1,12 @@
-li {
-  display: inline;
+:root{
+  --darkGold: #62410e;
+}
+
+li.nav {
+  float: right;
+  background-color: var(--darkGold);
+  display: block;
+  padding: 8px;
 }
 
 ul {
@@ -7,3 +14,4 @@ ul {
   margin: 0;
   padding: 0;
 }
+
