@@ -2,16 +2,18 @@
   --darkGold: #62410e;
 }
 
-li.nav {
-  float: right;
-  background-color: var(--darkGold);
-  display: block;
-  padding: 8px;
-}
-
-ul {
+ul.nav {
   list-style-type: none;
+  background-color: black;
+  display: block;
   margin: 0;
   padding: 0;
 }
+
+li{
+  float: right;
+  padding: 8px;
+  background-color: var(--darkGold);
+}
+
 
