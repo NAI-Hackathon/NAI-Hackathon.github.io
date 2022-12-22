@@ -1,5 +1,7 @@
 :root{
   --darkGold: #62410e;
+  --lightGold: #DCAB3B;
+  --lightBlue: #cfdef7;
 }
 
 ul.nav {
@@ -11,10 +13,27 @@ ul.nav {
   float: right;
 }
 
-li{
-  display: inline-block;
-  padding: 8px;
+div.nav{
+  padding: 15px;
   background-color: var(--darkGold);
+  border-radius:10px;
+  border: 10px, solid, white;
+}
+
+li{
+  float: right;
+  padding: 8px;
+}
+
+a:visited, a:link
+{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  color: var(--lightBlue);
+  font-weight: bold;
 }
 
 
