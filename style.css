@@ -4,12 +4,15 @@
   --lightBlue: #cfdef7;
 }
 
+#mainHome{
+  background-color: var(--darkGold);
+  width:100%;
+  height:50vw;
+}
 /* big table */
 #navBar{
   border-collapse: collapse; 
   width:100%;
-  margin-left: auto;
-  margin-right: auto;
   background-color:black;
 }
 
@@ -34,7 +37,7 @@ li{
 }
 
 .marginSpace{
-  width:20px;
+  width:100px;
 }
 
 
