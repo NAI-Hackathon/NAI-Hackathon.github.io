@@ -5,12 +5,15 @@
 }
 
 #mainHome{
-  background-color: var(--darkGold);
+  background-color: gray;
   width:100%;
   height:100vh;
+  background-image: url('awesomegraycat.jpg');
+  background-size: cover;
 }
 
 #navBar{
+  top:0;
   border-collapse: collapse; 
   width:100vw;
   background-color:black;
@@ -21,16 +24,19 @@
 /*table*/
 #titleSec{
   width:100%;
+  margin-left:auto; 
+  margin-right:auto; 
   padding-top: 10vh;
+  height:50vh;
 }
 
 /*h1*/
 #title{
-  font-size:5pc;
+  font-size:5.25vw;
   color:white;
   text-align: center;
-  margin-top:10vh;
-  margin-bottom:0%;
+  margin-top:20vh;
+  margin-bottom:1vh;
 }
 
 #titleDetails{
@@ -42,6 +48,7 @@
 
 #THEsignLink{
   width:20%; 
+  margin-top:5vh;
   margin-left:auto; 
   margin-right:auto; 
   padding:1vw;
@@ -62,13 +69,34 @@
 }
 
 /*======FAQ SECTION====*/
+/*background*/
 #FAQ{
-  width:100%;
+  width:100vw;
   height:100vh;
+  background-color: white;
 }
 
+#FAQTable{
+  width:100vw;
+  padding:3vh;
+  border-spacing: 30px;
+}
 
+.question{
+  height:8vh;
+  width:25vw;
+  text-align:center;
+  font-size:2vw;
+  font-weight:bold;
+}
 
+.answer{
+  background-color:var(--darkGold);
+  font-size:1.5vw;
+  border-radius:5px;
+  padding:3vh;
+  color:white;
+}
 
 
 
@@ -97,7 +125,7 @@ li{
   float: right;
   margin:10px;
   padding-right:10px;
-  font-size: 20px;
+  font-size: 1.25vw;
 }
 
 a:visited, a:link
