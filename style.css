@@ -4,37 +4,50 @@
   --lightBlue: #cfdef7;
 }
 
-
-header{
-  width:100%;
-  height:fit-content;
-  background-color:black;
-  
+#outline{
+  border-collapse: collapse; 
+  width:100vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul.nav {
-  list-style-type: none;
-  background-color: black;
-  display: block;
-  margin: 0;
-  padding: 10px;
-  float: right;
-  width: 100%;
+/* td(data) */
+#navBar {  
+  background-color:black;
+}
+
+#navSignLink {
+  background-color: var(--lightGold);
+  font-size: 1.5pc;
+  text-align: center;
+  padding:5px;
+  border-radius:5px;
+}
+
+#logo {
+  width: 70px;
+  height: auto;
 }
 
 li{
   float: right;
-  padding-left: 20px;
-  padding-top:10px;
-  padding-bottom:10px;
+  margin:10px;
+  padding-right:10px;
+  font-size: 1.3pc;
 }
+
+
+.marginSpace{
+  width:2vw;
+}
+
+
 
 a:visited, a:link
 {
   text-decoration: none;
   color:white;
 }
-
 a:hover{
   color: var(--lightBlue);
   font-weight: bold;
