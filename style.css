@@ -4,25 +4,29 @@
   --lightBlue: #cfdef7;
 }
 
+
+header{
+  width:100%;
+  height:fit-content;
+  background-color:black;
+  
+}
+
 ul.nav {
   list-style-type: none;
   background-color: black;
   display: block;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   float: right;
-}
-
-div.nav{
-  padding: 15px;
-  background-color: var(--darkGold);
-  border-radius:10px;
-  border: 10px, solid, white;
+  width: 100%;
 }
 
 li{
   float: right;
-  padding: 8px;
+  padding-left: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 a:visited, a:link
