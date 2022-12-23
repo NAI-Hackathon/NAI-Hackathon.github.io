@@ -4,21 +4,18 @@
   --lightBlue: #cfdef7;
 }
 
-#outline{
+/* big table */
+#navBar{
   border-collapse: collapse; 
-  width:100vw;
+  width:100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* td(data) */
-#navBar {  
   background-color:black;
 }
 
 #navSignLink {
   background-color: var(--lightGold);
-  font-size: 1.5pc;
+  font-size: 25px;
   text-align: center;
   padding:5px;
   border-radius:5px;
@@ -33,14 +30,12 @@ li{
   float: right;
   margin:10px;
   padding-right:10px;
-  font-size: 1.3pc;
+  font-size: 20px;
 }
-
 
 .marginSpace{
-  width:2vw;
+  width:20px;
 }
-
 
 
 a:visited, a:link
