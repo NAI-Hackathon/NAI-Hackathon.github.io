@@ -1,5 +1,5 @@
 :root{
-  --darkGold: #62410e;
+  --darkGold: #805725;
   --lightBlue: #cfdef7;
 }
 
@@ -77,37 +77,41 @@
 #FAQ{
   width:100vw;
   height:100vh;
-  background-color: wheat;
+  background-color: black;
 }
 
 #FAQTable{
-  width:100vw;
-  height:100vh;
+  width:80vw;
+  height:60vh;
   border-spacing: 30px;
+  padding-top:4%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .question{
-  height:8vh;
+  height:5vh;
   width:25vw;
   text-align:center;
-  font-size:2vw;
+  font-size:1.5vw;
   font-weight:bold;
+  color:white;
 }
 
 .answer{
-  background-color:gray;
+  background-color:var(--darkGold);
   font-size:1.5vw;
   border-radius:5px;
   padding:3vh;
   color:white;
-  border: 5px solid var(--darkGold);
+  border: 5px solid wheat;
 }
 
 
 /*======SPONSORS====*/
 #sponsors{
   width:100vw;
-  background-color:var(--darkGold);
+  background-color: rgb(53, 35, 16);
   padding-top:5vh;
   padding-bottom:5vh;
 }
