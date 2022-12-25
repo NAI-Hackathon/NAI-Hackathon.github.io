@@ -1,39 +1,24 @@
 <!DOCTYPE html>
+<html lang = "en">
+
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 
 <body style="margin:0;">
 
-  <!------------navigation bar---------------->
   <div id="mainHome">
-    <table id="navBar" style="border:0;">
-      <td class="marginSpace"></td>
 
-      <!--logo home link-->
-      <td style="width:400px"> <a class="white" href="index.html"> 
-        <img style="width: 20%;height: auto;" src="imageFolder/logo.jpg" alt="Home"> </a>
-      </td>
-
-      <!--links-->
-      <td>
-        <ul style="list-style-type: none;">
-          <li> <a class="white" href="contact.html">Contact</a> </li>
-          <li> <a class="white" href="default.asp">Sponsor Us</a> </li>
-          <li> <a class="white" href="contact.html">Images</a> </li>
-          <li> <a class="white" href="about.asp">Schedule</a> </li>
-          <li> <a class="white" href="index.html">Home</a> </li>
-        </ul>
-      </td>
-      <!--Sign Up button-->
-      <td>
-        <div id="navSignLink"> <a class="white" href="default.asp">Sign Up!</a> </div>
-      </td>
-    </table>
-
-
-
+    <!--Navigation bar-->
+    <div id="nav-placeholder1">
+    </div>
+    <script>
+        $(function(){
+            $("#nav-placeholder1").load("navbar.html");
+        });
+    </script>
   <!------------title section---------------->
     <div id="titleSec">
       <h1 id="title"> HackNA 2023 </h1>
@@ -100,3 +85,5 @@
   </div>
 
 </body>
+
+</html>

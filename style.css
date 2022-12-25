@@ -3,9 +3,32 @@
   --lightBlue: #cfdef7;
 }
 
+#navBar{
+  top:0;
+  left:0;
+  border-collapse: collapse; 
+  width:100%;
+  background-color:black;
+  height:10vh;
+  position: fixed;
+}
+
+/*div*/
+#navSignLink {
+  background-color: DarkGoldenrod;
+  font-size: 125%;
+  text-align: center;
+  padding:5px;
+  border-radius:5px;
+  width:80%;
+}
+
 .marginSpace{
   width:4%;
 }
+
+/*===============================INDEX===============================*/
+
 
 #mainHome{
   background-color: gray;
@@ -13,15 +36,6 @@
   height:100vh;
   background-image: url('imageFolder/awesomegraycat.jpg');
   background-size: cover;
-}
-
-#navBar{
-  top:0;
-  border-collapse: collapse; 
-  width:100%;
-  background-color:black;
-  height:10vh;
-  position: fixed;
 }
 
 /*table*/
@@ -61,15 +75,6 @@
   font-size: 200%;
 }
 
-/*div*/
-#navSignLink {
-  background-color: DarkGoldenrod;
-  font-size: 125%;
-  text-align: center;
-  padding:5px;
-  border-radius:5px;
-  width:80%;
-}
 
 /*======FAQ SECTION====*/
 
@@ -84,7 +89,7 @@
   width:80vw;
   height:60vh;
   border-spacing: 30px;
-  padding-top:4%;
+  padding-top:10vh;
   margin-left:auto;
   margin-right:auto;
 }
@@ -125,8 +130,21 @@
 }
 
 
+/*=========================CONTACT=========================*/
+#contactTitle{
+  text-align:center;
+  margin-top:20vh;
+  font-size:3vw;
+  color:white;
+}
 
-
+#contactInfo{
+  margin-left:10vw;
+  margin-top:10vh;
+  line-height: 10vh;
+  font-size:2vw;
+  color:white;
+}
 
 
 
