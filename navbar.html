@@ -1,14 +1,51 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
+
+<style>
+
+#navBar{
+  top:0;
+  left:0;
+  border-collapse: collapse; 
+  width:100%;
+  background-color:black;
+  height:10vh;
+  position: fixed;
+  border:0;
+}
+
+/*div*/
+#navSignLink {
+  background-color: DarkGoldenrod;
+  font-size: 125%;
+  text-align: center;
+  padding:5px;
+  border-radius:5px;
+  width:80%;
+}
+
+#logo{
+  margin-left:5vw;
+  width:6vw;
+}
+
+li{
+  float: right;
+  margin:10px;
+  padding-right:10px;
+  font-size: 1.25vw;
+}
+
+</style>
+
 <body>
 <!------------navigation bar---------------->
-    <table id="navBar" style="border:0;">
-      <td class="marginSpace"></td>
-
+    <table id="navBar">
       <!--logo home link-->
-      <td style="width:400px"> <a class="white" href="index.html"> 
-        <img style="width: 20%;height: auto;" src="imageFolder/logo.jpg" alt="Home"> </a>
+      <td> <a href="index.html"> 
+        <img id="logo" src="imageFolder/logo.jpg" alt="Home"> </a>
       </td>
 
       <td>
