@@ -2,11 +2,15 @@
   --darkGold: #805725;
   --lightBlue: #cfdef7;
 }
+*{
+  color:white;
+}
 
+/*==============RESPONSE PLZ==============*/
 @media screen and (max-width: 600px) {
-  /*#navBar{
+  #navBar{
     display:none;
-  }*/
+  }
   #title{
     font-size:10vw;
   }
@@ -50,7 +54,7 @@
     font-size: 2vw;
   }
   p{
-    font-size:3vw;
+    font-size:2.5vw;
   }
 }
 
@@ -78,7 +82,6 @@
 
 /*h1*/
 #title{
-  color:white;
   text-align: center;
   margin-top:25vh;
   margin-bottom:1vh;
@@ -118,7 +121,6 @@
 
 #FAQTitle{
   font-size: 5vw;
-  color:white;
   padding-top:5%;
   padding-bottom:2%;
   margin:0;
@@ -167,7 +169,6 @@
   font-size:1.5vw;
   border-radius:5px;
   padding:5%;
-  color:white;
   border: 10px solid rgb(28, 27, 24);
 }
 
@@ -188,7 +189,6 @@
   top: 150%;
   padding: 16px;
   margin:5%;
-  color: white;
   font-weight: bold;
   font-size: 18px;
   border-radius: 0 3px 3px 0;
@@ -222,18 +222,32 @@
 #sponsorTitle{
   text-align:center;
   color:darkgoldenrod;
+  font-size:4vw;
 }
 
-
-/*=========================CONTACT=========================*/
-#contactTitle{
-  text-align:center;
-  margin-top:20vh;
-  font-size:3vw;
-  color:white;
-}
 
 /*=========================OTHER=========================*/
+#contBar{
+  width:90%;
+  background-color:black;
+  height:50vh;
+  padding:5%;
+}
+
+#cont{
+  margin:0;
+  text-align:center;
+  padding-top:5%;
+  font-size:4vw;
+}
+
+.infoTitle{
+  text-align:center;
+  margin-top:30vh;
+  margin-bottom: 10vh;
+  font-size:3vw;
+}
+
 .info{
   margin-left:10vw;
   margin-top:10vh;
@@ -242,12 +256,28 @@
   color:rgb(255, 255, 255);
 }
 
+/*============SCHEDULE==========*/
+.info tr, .info td{
+  padding: 25px;
+  border: 2px solid black;
+}
+
+.info td:nth-child(odd){
+  font-size:3.25vw;
+}
+
+.info{
+  border-collapse: collapse;
+  border-style: hidden;
+  margin-bottom:20vh;
+}
 
 
 
 
-
-
+hr{
+  margin:0 5%;
+}
 
 a:visited, a:link
 {
@@ -258,5 +288,6 @@ a:hover{
   color: var(--lightBlue);
   font-weight: bold;
 }
+.info tr:hover {background-color: #1f2020;}
 
 
