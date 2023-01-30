@@ -221,7 +221,7 @@
 #sponsors{
   width:100%;
   height:100vh;
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(0, 0, 0);
   padding-top:5vh;
   padding-bottom:5vh;
 }
@@ -234,16 +234,14 @@
 
 /*=========================OTHER=========================*/
 #contBar{
-  width:90%;
-  background-color:black;
-  height:50vh;
-  padding:5%;
+  width:94vw;
+  background-color:rgb(51, 48, 48);
+  height:13vh;
+  padding:3%;
 }
-
 #cont{
   margin:0;
   text-align:center;
-  padding-top:5%;
 }
 
 .infoTitle{
@@ -260,7 +258,6 @@
   color:rgb(255, 255, 255);
 }
 
-/*============SCHEDULE==========*/
 .info tr, .info td{
   padding: 20px;
   border: 2px solid black;
