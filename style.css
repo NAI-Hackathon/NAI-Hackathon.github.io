@@ -7,6 +7,7 @@
 }
 
 /*==============RESPONSE PLZ==============*/
+/*small*/
 @media screen and (max-width: 600px) {
   #navBar{
     display:none;
@@ -17,12 +18,16 @@
   #THEsignLink{
     width:40vw; 
   }
-   .tDetail{
-    font-size: 5vw;
+  .large{
+    font-size:8vw;
   }
-  p{
-    font-size:10vw;
+  .medium, .info td:nth-child(odd){
+    font-size: 6vw;
   }
+  .small, li{
+    font-size: 4vw;
+  }
+
 }
 
 /* medium devices */
@@ -33,28 +38,34 @@
   #THEsignLink{
     width:30vw; 
   }
-  .tDetail{
-    font-size: 4vw;
+  .large{
+    font-size:8vw;
   }
-  p{
-    font-size:9vw;
+  .medium,.info td:nth-child(odd){
+    font-size: 4.5vw;
+  }
+  .small, li{
+    font-size: 3vw;
   }
 }
 
 
 /* Large devices*/
 @media screen and (min-width: 990px) {
-  #title{
-    font-size:6vw;
+  .large{
+    font-size:4.5vw;
+  }
+  .medium{
+    font-size:2.5vw;
+  }
+  .small{
+    font-size:2vw;
+  }
+  li{
+    font-size:1.5vw;
   }
   #THEsignLink{
-    width:25vw; 
-  }
-  .tDetail{
-    font-size: 2vw;
-  }
-  p{
-    font-size:2.5vw;
+    width:40vw; 
   }
 }
 
@@ -99,14 +110,13 @@
 }
 
 #THEsignLink{
-  margin-top:10vh;
+  margin-top:15vh;
   margin-left:auto; 
   margin-right:auto; 
   padding:1vw;
   background-color: DarkGoldenrod;
   text-align: center;
   border-radius:1vw;
-  font-size: 200%;
 }
 
 
@@ -120,7 +130,6 @@
 }
 
 #FAQTitle{
-  font-size: 5vw;
   padding-top:5%;
   padding-bottom:2%;
   margin:0;
@@ -142,7 +151,7 @@
 .slide {
   display: none;
   width:80vw;
-  height:60vh;
+  height:65%;
   margin-left:auto;
   margin-right:auto;
 }
@@ -155,7 +164,6 @@
   text-align:center;
   margin-left:auto;
   margin-right:auto;
-  font-size:2.75vw;
   font-weight:bold;
   color:moccasin;
 }
@@ -163,10 +171,9 @@
 .answer{
   background-color:rgb(63, 61, 61);
   width:75%;
-  height:20vh;
+  margin-top:3%;
   margin-left:auto;
   margin-right:auto;
-  font-size:1.5vw;
   border-radius:5px;
   padding:5%;
   border: 10px solid rgb(28, 27, 24);
@@ -186,7 +193,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 150%;
+  top: 150vh;
   padding: 16px;
   margin:5%;
   font-weight: bold;
@@ -222,7 +229,6 @@
 #sponsorTitle{
   text-align:center;
   color:darkgoldenrod;
-  font-size:4vw;
 }
 
 
@@ -238,32 +244,26 @@
   margin:0;
   text-align:center;
   padding-top:5%;
-  font-size:4vw;
 }
 
 .infoTitle{
   text-align:center;
   margin-top:30vh;
   margin-bottom: 10vh;
-  font-size:3vw;
 }
 
 .info{
-  margin-left:10vw;
+  margin-left:5%;
+  margin-right:auto;
   margin-top:10vh;
   line-height: 10vh;
-  font-size:2vw;
   color:rgb(255, 255, 255);
 }
 
 /*============SCHEDULE==========*/
 .info tr, .info td{
-  padding: 25px;
+  padding: 20px;
   border: 2px solid black;
-}
-
-.info td:nth-child(odd){
-  font-size:3.25vw;
 }
 
 .info{
@@ -287,7 +287,6 @@ a:visited, a:link
 a:hover{
   color: var(--lightBlue);
   font-weight: bold;
-  text-decoration:underline;
 }
 .info tr:hover {background-color: #1f2020;}
 
