@@ -113,7 +113,7 @@
   margin-top:15vh;
   margin-left:auto; 
   margin-right:auto; 
-  padding:1vw;
+  padding:2vw;
   background-color: DarkGoldenrod;
   text-align: center;
   border-radius:1vw;
@@ -219,11 +219,10 @@
 
 /*======SPONSORS====*/
 #sponsors{
-  width:100%;
-  height:100vh;
+  width:95.4%;
+  height:150vh;
   background-color: rgb(0, 0, 0);
-  padding-top:5vh;
-  padding-bottom:5vh;
+  padding:5vh;
 }
 
 #sponsorTitle{
@@ -234,7 +233,7 @@
 
 /*=========================OTHER=========================*/
 #contBar{
-  width:94vw;
+  width:94%;
   background-color:rgb(51, 48, 48);
   height:13vh;
   padding:3%;
