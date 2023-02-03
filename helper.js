@@ -8,11 +8,11 @@ function plusSlides(n) {
   showSlides(qIndex += n);
 }
 
-/* // Thumbnail image controls
+// Thumbnail image controls
 function currentSlide(n) {
   showSlides(qIndex = n);
 }
-*/
+
 
 function showSlides(n) {
   let i;
