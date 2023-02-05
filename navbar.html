@@ -1,10 +1,12 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share&family=Share+Tech+Mono">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <style>
 
+/* NORMAL */
 #navBar{
   top:0;
   left:0;
@@ -12,58 +14,63 @@
   background-color:black;
   height:15vh;
   position: fixed;
+  font-family: 'Share Tech Mono', sans-serif;
 }
 
-/*div*/
 #navSignLink {
   background-color: DarkGoldenrod;
-  font-size: 150%;
   text-align: center;
-  padding:5px;
-  border-radius:5px;
-  font-family: 'Share Tech Mono', sans-serif;
+  padding:5%;
+  border-radius:10px;
+  width:50%;
+  margin:10%;
 }
 
 #logo{
   margin-left:5vw;
-  width:8vw;
+  width:25%;
 }
 
 li{
-  float: right;
+  float:right;
   margin:1vw;
-  padding-right:10px;
-  font-family: 'Share Tech Mono', sans-serif;
   list-style-type: none;
 }
 
+/* SIDE */
+#smallNav{
+  width:20%
+
+}
 
 
 </style>
 
 <body>
-<!------------navigation bar---------------->
+<!------------Big navigation bar---------------->
     <table id="navBar">
       <!--logo home link-->
       <td> <a href="index.html"> 
-        <img id="logo" src="imageFolder/logo.jpg" alt="Home"> </a>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share&family=Share+Tech+Mono">
+        <img id="logo" src="imageFolder/logo.jpg" alt="Home"> <b class="small"> 2023 </b></a>
       </td>
 
-      <td style ="width:80%;">
-        <ul class="small">
+      <td style="width:50%;">
           <li> <a href="contact.html">Contact</a> </li>
           <li> <a href="sponsorUs.html">Sponsor</a> </li>
           <li> <a href="images.html">Images</a> </li>
           <li> <a href="schedule.html">Schedule</a> </li>
           <li> <a href="index.html">Home</a> </li>
-        </ul>
       </td>
-      <!--Sign Up button-->
-      <td>
-        <div id="navSignLink"> <a href="default.asp">Sign Up!</a> </div>
-      </td>
+    <th style ="width:15%;">
+      <div id="navSignLink"> <a href="default.asp">  Sign Up! </a> </div>
+    </th>
+
     </table>
+
+  <!------------Side navigation bar---------------->
+    <div>
+
+    </div>
 
 
 
