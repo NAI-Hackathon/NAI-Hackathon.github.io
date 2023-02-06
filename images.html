@@ -5,8 +5,19 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <style>
             .images{
-                height:auto;
-                padding:2%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+            .imageCol{
+                flex: 33%;
+                max-width: 33%;
+                padding: 0 4px;
+            }
+            .imageCol img{
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
             }
         </style>
     </head>
@@ -24,13 +35,20 @@
 
         <h1 class="infoTitle large">IMAGES</h1>
         <hr>
-        <div class="info medium">
+        <div class="info medium images">
             <p> Our organizer team at work!</p>
-
-            <img class="images" src="imageFolder/team1.jpg" alt="Team discusses">
-            <img class="images" src="imageFolder/team2.jpg" alt="Organizer">
-            <img class="images" src="imageFolder/team3.jpg" alt="Organizer">
-
+            <div class="imageCol">
+                <img src="imageFolder/team1.jpg" alt="Team discusses">
+                <img src="imageFolder/team2.jpg" alt="Organizer">
+            </div>
+            <div class="imageCol">
+                <img src="imageFolder/team3.jpg" alt="Organizer">
+                <img src="imageFolder/team2.jpg" alt="Organizer">
+            </div>
+            <div class="imageCol">
+                <img src="imageFolder/team1.jpg" alt="Team discusses">
+                <img src="imageFolder/team3.jpg" alt="Organizer">
+            </div>
             <p class="small"> More images coming soon!</p>
         </div>
 
