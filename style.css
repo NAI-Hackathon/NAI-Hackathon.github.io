@@ -27,6 +27,9 @@
   .small, li{
     font-size: 5vw;
   }
+  .images{
+    max-width:100%;
+  }
 
 }
 
@@ -38,6 +41,9 @@
   #THEsignLink{
     width:30vw; 
   }
+  .images{
+    max-width:50%;
+  }
   .large{
     font-size:8vw;
   }
@@ -47,6 +53,7 @@
   .small, li{
     font-size: 3vw;
   }
+  
 }
 
 
@@ -66,6 +73,9 @@
   }
   #THEsignLink{
     width:30vw; 
+  }
+  .images{
+    max-width:20%;
   }
 }
 
