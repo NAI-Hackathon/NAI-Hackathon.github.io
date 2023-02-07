@@ -148,7 +148,7 @@
 #overview{
   width:90%;
   height:75vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(41, 38, 32);
   padding:5%
 }
 
@@ -238,7 +238,7 @@
 /*======SPONSORS====*/
 #sponsors{
   height:150vh;
-  background-color: rgb(20, 20, 18);
+  background-color: rgb(37, 36, 34);
   padding:5vh;
   margin:0;
 }
