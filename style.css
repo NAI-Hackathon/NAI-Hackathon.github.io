@@ -6,7 +6,12 @@
   color:white;
   vertical-align: middle;
 }
-
+.small, .medium{
+  font-family: 'Share Tech Mono', sans-serif;
+}
+.large{
+  font-family: 'Lilita One', cursive;
+}
 /*==============RESPONSE PLZ==============*/
 /*small*/
 @media screen and (max-width: 650px) {
