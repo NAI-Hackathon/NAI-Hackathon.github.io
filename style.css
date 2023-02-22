@@ -6,95 +6,47 @@
   color:white;
   vertical-align: middle;
 }
-.small, .medium{
-  font-family: 'Share Tech Mono', sans-serif;
-}
-.large{
-  font-family: 'Lilita One', cursive;
-}
+.small, .medium{font-family: 'Share Tech Mono', sans-serif;}
+.large{font-family: 'Lilita One', cursive;}
 /*==============RESPONSE PLZ==============*/
 /*small*/
 @media screen and (max-width: 650px) {
-  #navBar{
-    display:none;
-  }
-  #title{
-    font-size:10vw;
-  }
-  #THEsignLink{
-    width:60vw; 
-  }
-  #FAQ{
-    padding:2%;
-  }
-  #titleDetails{
-    border-spacing: 3vw 0;
-  }
-  .large{
-    font-size:8vw;
-  }
-  .medium, .info td:nth-child(odd){
-    font-size: 6vw;
-  }
-  .small, li{
-    font-size: 4.5vw;
-  }
+  #links, #navSignLink{display: none;}
+  #title{font-size:10vw;}
+  #THEsignLink{width:60vw;}
+  #FAQ{padding:2%;}
+  #titleDetails{border-spacing: 3vw 0;}
 
+  .large{font-size:8vw;}
+  .medium, .info td:nth-child(odd){font-size: 6vw;}
+  .small{font-size: 4.5vw;}
 }
 
 /* medium devices */
 @media screen and (min-width: 600px) {
-  #title{
-    font-size:8vw;
-  }
-  #THEsignLink{
-    width:30vw; 
-  }
-  #titleDetails{
-    border-spacing: 3vw 0;
-  }
-  .large{
-    font-size:7vw;
-  }
-  .medium,.info td:nth-child(odd){
-    font-size: 4vw;
-  }
-  .small{
-    font-size: 3vw;
-  }
-  
-  li{
-    font-size: 2vw;
-  }
-  #navSignLink{
-    font-size: 20px;
-  }
+  #navBar .material-icons{display: none;}
+  #title{font-size:8vw;}
+  #THEsignLink{width:30vw; }
+  #titleDetails{border-spacing: 3vw 0;}
+  #navSignLink{font-size: 20px;}
+
+  .large{font-size:7vw;}
+  .medium,.info td:nth-child(odd){font-size: 4vw;}
+  .small{font-size: 3vw;}
 }
 
 
 /* Large devices*/
 @media screen and (min-width: 990px) {
-  .large{
-    font-size:4vw;
-  }
-  .medium, .info td:nth-child(odd){
-    font-size:2.75vw;
-  }
-  .small{
-    font-size:1.75vw;
-  }
-  li{
-    font-size:1.5vw;
-  }
-  #THEsignLink{
-    font-size:3vw;
-  }
-  #navSignLink{
-    font-size: 25px;
-  }
-  #titleDetails{
-    border-spacing: 2vw 0;
-  }
+  #navBar .material-icons{display: none;}
+  #links{font-size:1.5vw;}
+  #THEsignLink{font-size:3vw;}
+  #navSignLink{font-size: 25px;}
+  #titleDetails{border-spacing: 2vw 0;}
+
+  .large{font-size:4vw;}
+  .medium, .info td:nth-child(odd){font-size:2.75vw;}
+  .small{font-size:1.75vw;}
 }
 
 

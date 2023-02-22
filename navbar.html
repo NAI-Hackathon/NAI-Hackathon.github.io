@@ -1,7 +1,9 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share&family=Share+Tech+Mono">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="helper.js"></script>
 </head>
 
 <style>
@@ -12,65 +14,87 @@
   left:0;
   width:100%;
   background-color:rgba(0,0,0,0.8);
-  height:15vh;
   position: fixed;
   font-family: 'Share Tech Mono', sans-serif;
+  padding:1%;
 }
 
 #navSignLink {
   background-color: DarkGoldenrod;
   text-align: center;
-  padding:5%;
+  padding:1%;
   border-radius:10px;
-  width:50%;
-  margin:10%;
+  float:right;
+  margin: 1.5%;
+  margin-left:0;
 }
 
 #logo{
   margin-left:5vw;
-  width:25%;
+  width:8.2%;
 }
 
-li{
+#links{
   float:right;
-  margin:1vw;
-  list-style-type: none;
+  margin-top:3vw;
+  margin-right:1vw;
 }
 
-/* SIDE */
-#smallNav{
-  width:20%
-
+#links a{
+  margin-right:1.5vw;
 }
+
+/* SMALLER */
+#navBar i.material-icons{
+  font-size:5vw;
+  float:right;
+  margin-right:5%;
+  margin-top:2%;
+}
+
+#links.down{
+  display: block;
+  float:none;
+}
+
+#links.down a{
+  display: block;
+  width:100vw;
+  text-align:left;
+  padding:2%;
+}
+
+
 
 
 </style>
 
 <body>
 <!------------Big navigation bar---------------->
-    <table id="navBar">
-      <!--logo home link-->
-      <td> <a href="index.html"> 
-        <img id="logo" src="imageFolder/logo.jpg" alt="Home"> <b class="small"> 2023 </b></a>
-      </td>
+  <div id="navBar">
+    <!--logo home link-->
+    <a href="index.html"> 
+      <img id="logo" src="imageFolder/logo.jpg" alt="Home"> <b class="small"> 2023 </b>
+    </a>
 
-      <td style="width:50%;">
-          <li> <a href="contact.html">Contact</a> </li>
-          <li> <a href="sponsorUs.html">Sponsor</a> </li>
-          <li> <a href="images.html">Images</a> </li>
-          <li> <a href="schedule.html">Schedule</a> </li>
-          <li> <a href="index.html">Home</a> </li>
-      </td>
-    <th style ="width:15%;">
-      <div id="navSignLink"> <a onClick="alert('Coming Soon! Will be updated once ready!');"> Sign Up! </a> </div>
-    </th>
-
-    </table>
-
-  <!------------Side navigation bar---------------->
-    <div>
-
+    <i class="material-icons" onclick="navDrop()">menu </i>
+    <div id="navSignLink"> 
+      <a onClick="alert('Coming Soon! Will be updated once ready!');"> Sign Up! </a> 
     </div>
+    <div id="links">
+      <a href="index.html">Home</a> 
+      <a href="schedule.html">Schedule</a> 
+      <a href="images.html">Images</a> 
+      <a href="sponsorUs.html">Sponsor</a> 
+      <a href="contact.html">Contact</a> 
+    </div>
+
+
+
+      
+        
+
+  </div>
 
 
 
