@@ -7,7 +7,7 @@
   vertical-align: middle;
 }
 .small, .medium{font-family: 'Share Tech Mono', sans-serif;}
-.large{font-family: 'Lilita One', cursive;}
+.large{font-family: 'Lilita One', sans-serif;}
 /*==============RESPONSE PLZ==============*/
 /*small*/
 @media screen and (max-width: 650px) {
@@ -23,7 +23,7 @@
 }
 
 /* medium devices */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   #navBar .material-icons{display: none;}
   #title{font-size:8vw;}
   #THEsignLink{width:30vw; }
