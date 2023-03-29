@@ -6,7 +6,7 @@
   color:white;
   vertical-align: middle;
 }
-.small, .medium{font-family: 'Share Tech Mono', sans-serif;}
+.small, .medium{font-family: 'Share Tech Mono', serif;}
 .large{font-family: 'Lilita One', sans-serif;}
 /*==============RESPONSE PLZ==============*/
 /*small*/
@@ -40,7 +40,7 @@
 @media screen and (min-width: 990px) {
   #navBar .material-icons{display: none;}
   #links{font-size:1.5vw;}
-  #THEsignLink{font-size:3vw;}
+  #THEsignLink{font-size:2.5vw; width:15%; height:5%;}
   #navSignLink{font-size: 25px;}
   #titleDetails{border-spacing: 2vw 0;}
 
@@ -53,6 +53,21 @@
 
 
 /*===============================INDEX===============================*/
+#backComp{
+  position:absolute;
+  width:100%;
+  top:-20%;
+  left:-80%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#backTiger{
+  width:60%;
+  position:absolute;
+  top:130%;
+  left:10%;
+}
+
 .titles{
   margin-top:0;
   text-align:center;
@@ -61,14 +76,11 @@
 
 #mainHome{
   height:100vh;
-  background-image: url('imageFolder/glitch code background.jpg');
-  background-size: cover;
+  background-image: url("imageFolder/glitch code background.jpg");
 }
 
 /*table*/
 #titleSec{
-  margin-left:auto; 
-  margin-right:auto; 
   padding-top: 8vh;
   height:50vh;
 }
@@ -81,10 +93,8 @@
 }
 
 #titleDetails{
-  margin-left: auto; 
-  margin-right: auto; 
   margin-bottom:10vh;
-  text-align:left;
+  text-align:center;
 }
 
 .tDetail{
@@ -92,7 +102,7 @@
 }
 
 #THEsignLink{
-  margin-top:15vh;
+  margin-top:18vh;
   margin-left:auto; 
   margin-right:auto; 
   padding:2%;
