@@ -6,12 +6,30 @@
   color:white;
   vertical-align: middle;
 }
-.small, .medium{font-family: 'Share Tech Mono', serif;}
+
+
+hr{
+  margin:5%;
+}
+
+a:visited, a:link
+{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--lightBlue);
+  font-weight: bold;
+}
+.info tr:hover {background-color: #1f2020;}
+
+.small, .medium{font-family: 'Share Tech Mono', serif; text-align:center;}
 .large{font-family: 'Lilita One', sans-serif;}
+
 /*==============RESPONSE PLZ==============*/
 /*small*/
 @media screen and (max-width: 650px) {
-  #links, #navSignLink{display: none;}
+  #links, #navSignLink, #tiger{display: none;}
   #title{font-size:10vw;}
   #THEsignLink{width:60vw;}
   #FAQ{padding:2%;}
@@ -39,14 +57,17 @@
 /* Large devices*/
 @media screen and (min-width: 990px) {
   #navBar .material-icons{display: none;}
+
   #links{font-size:1.5vw;}
   #THEsignLink{font-size:2.5vw; width:15%; height:5%;}
   #navSignLink{font-size: 25px;}
   #titleDetails{border-spacing: 2vw 0;}
 
-  .large{font-size:4vw;}
+  #gold{font-size:3vw;}
+
+  .large{font-size:5vw;}
   .medium, .info td:nth-child(odd){font-size:2.75vw;}
-  .small{font-size:1.75vw;}
+  .small{font-size:2vw;}
 }
 
 
@@ -60,12 +81,6 @@
   left:-80%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-}
-#backTiger{
-  width:60%;
-  position:absolute;
-  top:130%;
-  left:10%;
 }
 
 .titles{
@@ -123,6 +138,11 @@
 
 #overTitle{
   text-align:center;
+}
+
+#tiger{
+  padding:3%;
+  width:30%;
 }
 
 /*======FAQ SECTION====*/
@@ -206,10 +226,17 @@
 
 /*======SPONSORS====*/
 #sponsors{
-  height:150vh;
-  background-color: rgb(16, 15, 14);
-  padding:5vh;
+  height:200vh;
+  background-color: rgb(30, 29, 28);
+  padding:10vw;
   margin:0;
+}
+
+.logos{
+  padding:4vw;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /*=========================OTHER=========================*/
@@ -250,19 +277,5 @@
 
 
 
-hr{
-  margin:0 5%;
-}
-
-a:visited, a:link
-{
-  color:rgb(255, 255, 255);
-  text-decoration: none;
-}
-a:hover{
-  color: var(--lightBlue);
-  font-weight: bold;
-}
-.info tr:hover {background-color: #1f2020;}
 
 
